@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.mainheader{
+    background-color: #ff7038;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 4px;
+
+}
+
+nav a:hover{
+    background-color: rgb(255, 177, 112);
+    color: white;
+}
+
+.encabezado{
+    background-image: url(fondo.png);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.encabezado p{
+    font-size: 20px;
+
+}
+.encabezado h1{
+    font-size: 50px;
+    padding: 20px;
+    
+}
+
+p{
+    font-family: sans-serif;
+    font-size:medium;
+    
+}
+
+table{
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+.form-register{
+    width: 400px;
+    background: #fcc26b ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 9px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.controls{
+    width: 95%;
+    background: #ffcd81;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ffead9;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.botons {
+    width: 100%;
+    background: #ffead9;
+    border: none;
+    padding: 12px;
+    color: #ff7038;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.pimis{
+    width: 550px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+
+.subtittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.subtittle h2{
+    font-size: 20px;
+    padding: 20px;   
+}
+
+.servicios{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cajas .box{
+    height: 11rem;
+    width: 17rem;
+    background-color: #ff7038;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem;
+
+}
+
+.cajas .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: aliceblue;
+    background: ;
+}
+
