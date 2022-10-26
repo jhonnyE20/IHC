@@ -3,12 +3,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/Estilos.css" rel="stylesheet">
+     
     <title>Huellitas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
-
   <body>
     <section class="mainheader">
       <nav>
@@ -20,14 +22,11 @@
   </section>
 
     <div class="encabezado">
+      <img class="huella"src="imagenes/1.PNG" style="width:200px;height:auto;">
       <h1>Nos importa tu mascota</h1>
       <p>Somos un vinculo entre usted y distintas clínicas veterinarias para que siempre tenga una opción segura</p>
     </div>
-
-    <img src="imagenes/1.PNG" alt="Logo" style="width:330px;height:100px;">
-
     <br>
-
     <section class="subtittle">
       <p style="text-align:center;">Bienvenido a Huellitas</p>
       <h2>-- Nuestros servicios --</h2>
@@ -35,44 +34,46 @@
     </section>
 
   <section class="servicios">
+
     <div class="cajas">
+
       <div class="box">
-        <i class="buscar"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
         <h3>Búsqueda</h3>
         <p>Gran catalogo de veterinarias</p>
       </div>
       <div class="box">
-        <i class="perfil"></i>
+        <i class="fa-solid fa-dog"></i>
         <h3>Perfiles</h3>
         <p>Perfil para tus mascotas</p>
       </div>
       <div class="box">
-        <i class="registro"></i>
+        <i class="fa-solid fa-book"></i>
         <h3>Registros</h3>
         <p>Historial médico de tu mascota</p>
       </div>
     </div>
   </section>
-  
-
     <section class="pimis">
-      <img src="imagenes/2.PNG" alt="Mascotas" style="width:500px;height:200px;">
+      <img src="imagenes/2.PNG" alt="Mascotas" style="width:400px;height:auto;">
     </section>
-    
-
     <section class="form-register">
-      <h4>¿Quieres recibir recomendaciones?</h4>
+        <h4>¿Quieres recibir recomendaciones?</h4>
         <input class="controls" type="text" name="correo" id="correo" placeholder="Ingresa tu correo">
         <input class="controls" type="text" name="pet" id="pet" placeholder="Ingresa tu tipo de mascota">
-        <input class="botons" type="submit" value="Recibir recomendaciones">
+        <button class="botton" type="button"onclick="alert('Registro enviado! c:')">Recibir recomendaciones</button>
+
     </section>
     
     <br>
     <p class="headers" style="text-align:center;">Somos lo que tu mascota necesita</p>
     <p class="headers" style="text-align:center;">¡Confía en nosotros!</p>
-    <img src="imagenes/1.PNG" alt="Logo" style="width:330px;height:100px;">
-    <img src="imagenes/7.PNG" alt="Descarga" style="width:200px;height:50px;">
-    <p style="text-align:center;">Features | About | Download</p>
+
+    <section class="footpage">
+      <img class="Huellitaslogo"src="imagenes/1.PNG" alt="Logo" style="width:400px;height:auto">
+      <img class="download"src="imagenes/7.PNG" alt="Descarga" style="width:200px;height:auto">
+    </section>
+    
     <p style="text-align:center;">La Masconeta | 2022</p>
 </body>
 </html>
