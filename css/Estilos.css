@@ -47,6 +47,25 @@ nav a:hover{
     
 }
 
+.mainheader .iniciarsesion{
+    text-align: center ;
+    color: white;
+}
+
+.mainheader .iniciarsesion i{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(255, 143, 38);
+    background: #ffffff;
+    font-size: 1rem;
+    margin: 1rem 0;
+
+}
+
+
 .encabezado::before{
     content: '';
     background:rgb(255, 177, 112, 0.3);
@@ -135,9 +154,6 @@ p{
     justify-content: center;
     align-items: center;
     
-    
-    
-    
 }
 
 .subtittle{
@@ -155,12 +171,12 @@ p{
 }
 
 .servicios{
-    height: 45vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
     margin: auto;
 }
 .cajas{
@@ -168,19 +184,20 @@ p{
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
 
 }
 
 .cajas .box{
-    height: 11rem;
-    width: 17rem;
+    height: 14rem;
+    width: 20rem;
     background-color: #f7c292;
+    
     text-align: center;
     border-radius: 1rem;
-    margin: 10px;
+    margin: 20px;
     cursor: pointer;
+    padding: 0px;
+
 
 }
 
@@ -216,10 +233,8 @@ p{
     cursor: pointer;
 }
 
-@media (max-width:250px){
-    .form-register{
-        width: auto;
-    }
+@media (min-width:250px){
+    
 
     .pimis{
         width: auto;
