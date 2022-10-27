@@ -184,7 +184,7 @@ p{
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-
+    min-height: 90px;
 }
 
 .cajas .box{
@@ -194,9 +194,10 @@ p{
     
     text-align: center;
     border-radius: 1rem;
-    margin: 20px;
+    margin: 2rem;
     cursor: pointer;
-    padding: 0px;
+    padding: 10px;
+    
 
 
 }
@@ -233,11 +234,13 @@ p{
     cursor: pointer;
 }
 
-@media (min-width:250px){
+@media (max-width: 450px){
     
 
     .pimis{
         width: auto;
+        min-height: 150vh;
+        margin-bottom: 0px;
     }
     .mainheader{
         width: auto;
@@ -245,6 +248,7 @@ p{
     .encabezado{
         width: auto;
     }
+
    
 }
 
