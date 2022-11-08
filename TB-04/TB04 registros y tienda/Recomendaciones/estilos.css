@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #ffefde;
+	font-family: sans-serif;
+}
+
+.tienda{
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;
+}
+
+.tienda > h1{
+	color: #494646;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.tienda > h1:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #C7C7C7;
+	margin: 20px 0;
+}
+
+.busqueda{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+	width: 18%;
+}
+
+.list .item{
+	display: block;
+	width: 90px;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	background: #ffbd80;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.productos{
+	width: 82%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.productos .producto{
+	width: 22%;
+	margin-left: 3%;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 6px 0px rgba(255, 160, 96, 0.404);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+
+	transition: all .4s;
+}
+
+.productos .producto img{
+	width: 180px;
+    height: 180px;
+}
+
+.productos .producto a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	background: #ff753e;
+
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.tienda .buscar{
+    
+    padding: 5px;
+
+}
+
+.tienda p{
+    margin-bottom: 30px;
+    color: #ff753e;
+}
+
+.buscar input{
+    width: 240px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+
+@media screen and (max-width: 1100px){
+	.productos .producto{
+		width: 30.3%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.list,
+	.productos{
+		width: 100%;
+	}
+
+	.list{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.list .item{
+		align-self: flex-start;
+		width: 15%;
+		font-size: 14px;
+	}
+
+	.productos .producto{
+		margin-left: 4.5%;
+	}
+
+	.productos .producto:nth-child(3n+1){
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.list{
+		flex-direction: column;
+	}
+	.list .item{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 600px){
+
+	.productos .producto{
+		width: 47.5%;
+	}
+
+	.productos .producto:nth-child(3n+1){
+		margin-left: 4.5%;
+	}
+
+	.productos .producto:nth-child(2n+1){
+		margin-left: 0px;
+	}
+
+}
+
+@media screen and (max-width: 350px){
+	.productos .producto{
+		width: 100%;
+		margin-left: 0px;
+	}
+}

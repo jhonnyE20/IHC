@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    
+}
+
+.form-register{
+    width: 400px;
+    background: #ffebc7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: sans-serif ;
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form-register p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.form-register p:hover{
+    color: rgb(255, 146, 83);
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.form-register .botons{
+    width: 100%;
+    background-color: rgb(255, 160, 71);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 13px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.form-register .botons:hover{
+    cursor: pointer;    
+}
+
+.controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: sans-serif;
+    
+}
+
+.redes{
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.buttongoogle{
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 9px;
+    background-color: white;
+    border: 1px solid rgb(255, 150, 89);
+    color: #000;
+    cursor: pointer;
+    align-items: center;
+}
+
+.buttongoogle i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+    transform: scale(1.5);
+
+}
+
+.buttongoogle:hover{
+    background-color: rgb(255, 150, 89);
+    color: rgb(255, 255, 255);
+}
+
+.buttonfacebook{
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 9px;
+    background-color: white;
+    border: 1px solid rgb(255, 150, 89);
+    color: #000;
+    cursor: pointer;
+    align-items: center;
+}
+
+.buttonfacebook i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+    transform: scale(1.5);
+
+}
+
+.buttonfacebook:hover{
+    background-color: rgb(255, 150, 89);
+    color: rgb(255, 255, 255);
+}

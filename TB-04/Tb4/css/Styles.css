@@ -1,0 +1,74 @@
+.table1, .th1, .td1 {
+    border: 1px solid black;
+  }
+
+  th, td {
+    background-color: #fdebcb;
+  }
+
+body{
+    background-color: #fef5e6;
+}
+
+.sub{
+    font-size:x-large;
+}
+
+
+
+.form-register .botton {
+    width: 100%;
+    background: #ffead9;
+    border: none;
+    padding: 12px;
+    color: #ff7038;
+    border-radius: 9px;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.asunto{
+    height:300px ;
+    width: 300px;
+}
+
+nav {
+    float: left;
+    width: 15%;
+    height: 350px;
+    background:#eaa98feb;
+    padding: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .img1 {
+    position: absolute;
+    top: 205px;
+    left: 25px;
+  }
+
+  .imgA1 {
+    z-index: 1;
+  }
+  .imgB1 {
+    z-index: 3;
+    border-radius: 50%;
+  }
